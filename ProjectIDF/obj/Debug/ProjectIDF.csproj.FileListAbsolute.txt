@@ -5,3 +5,10 @@ C:\Users\avishay\IDF\Step 2\ProjectIDF\ProjectIDF\obj\Debug\ProjectIDF.csproj.As
 C:\Users\avishay\IDF\Step 2\ProjectIDF\ProjectIDF\obj\Debug\ProjectIDF.csproj.CoreCompileInputs.cache
 C:\Users\avishay\IDF\Step 2\ProjectIDF\ProjectIDF\obj\Debug\ProjectIDF.exe
 C:\Users\avishay\IDF\Step 2\ProjectIDF\ProjectIDF\obj\Debug\ProjectIDF.pdb
+C:\Users\shuki\Desktop\Project-IDF\ProjectIDF\bin\Debug\ProjectIDF.exe.config
+C:\Users\shuki\Desktop\Project-IDF\ProjectIDF\bin\Debug\ProjectIDF.exe
+C:\Users\shuki\Desktop\Project-IDF\ProjectIDF\bin\Debug\ProjectIDF.pdb
+C:\Users\shuki\Desktop\Project-IDF\ProjectIDF\obj\Debug\ProjectIDF.csproj.AssemblyReference.cache
+C:\Users\shuki\Desktop\Project-IDF\ProjectIDF\obj\Debug\ProjectIDF.csproj.CoreCompileInputs.cache
+C:\Users\shuki\Desktop\Project-IDF\ProjectIDF\obj\Debug\ProjectIDF.exe
+C:\Users\shuki\Desktop\Project-IDF\ProjectIDF\obj\Debug\ProjectIDF.pdb

@@ -9,14 +9,14 @@ namespace ProjectIDF
     internal class Zik : AttackTools
     {
 
-        public override string BombType { get; set; }
-        public override int AmmunitionCapacity { get; set; }
-        public override string EffectiveAgainst { get; set; }
-        public Zik(string bombType, int ammunitionCapacity, string effectiveAgainst)
-        {
-            BombType = bombType;
-            AmmunitionCapacity = ammunitionCapacity;
-            EffectiveAgainst = effectiveAgainst;
-        }
+        public override string BombType { get; } = "veraity bombs";
+        public override int AmmunitionCapacity { get; } = 3;
+        public override string EffectiveAgainst { get; } = "pepole and car";
+        //public Zik(string bombType , int ammunitionCapacity , string effectiveAgainst )
+        //{
+        //    BombType = bombType;
+        //    AmmunitionCapacity = ammunitionCapacity;
+        //    EffectiveAgainst = effectiveAgainst;
+        //}
     }
 }

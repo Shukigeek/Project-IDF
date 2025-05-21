@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 
 namespace ProjectIDF
 {
-    internal class StrikeOptions
-    {
-        string UniqueName;
-        int AmmunitionCapacity;
-        int FuelSupply;
-        string TypeOfTarget;
-    }
+    //internal class StrikeOptions
+    //{
+    //    string UniqueName;
+    //    int AmmunitionCapacity;
+    //    int FuelSupply;
+    //    string TypeOfTarget;
+
+
+
+    //}    AttackTools  הכל נמצא כבר בפונקציה 
 }
