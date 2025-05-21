@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="AttackTools.cs" />
     <Compile Include="F16.cs" />
+    <Compile Include="Aman.cs" />
     <Compile Include="HamasDefinition.cs" />
     <Compile Include="IdfDefinition.cs" />
     <Compile Include="IOrganization.cs" />
