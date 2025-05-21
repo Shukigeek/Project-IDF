@@ -10,6 +10,7 @@ namespace ProjectIDF
     {
         static void MenuToUser()
         {
+            IdfDefinition definition = new IdfDefinition();
             while (true)
             {
                 Console.WriteLine("Commander Console:\nChoose num: 1-10\n1. Intel Analysis\n2. Strike Availability\n3. Target Prioritization\n4. Strike Execution\n");
