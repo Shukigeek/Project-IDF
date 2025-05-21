@@ -12,18 +12,11 @@ namespace ProjectIDF
         public string CurrentCommander { get; set; }
         public string[] CollectionOfStrike;
 
-        IdfDefinition(string dateOfEstablishment, string currentCommander)
+        public IdfDefinition(string dateOfEstablishment = "may 26 1948", string currentCommander = "eyal zamir")
         {
-            DateOfEstablishment = dateOfEstablishment; // "may 26 1948";
-            CurrentCommander = currentCommander; // "eyal zamir";
+            DateOfEstablishment = dateOfEstablishment;
+            CurrentCommander = currentCommander;
             CollectionOfStrike = new string[] { "aircraft", "drones", "artillery" };
-        }
-
-        //public string get()
-        //{
-        //    IdfDefinition d = new IdfDefinition("ds", "gghf");
-        //    return $"{d.get()}";
-        //}
-      
+        }      
     }
 }
