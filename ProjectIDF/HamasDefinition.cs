@@ -12,7 +12,7 @@ namespace ProjectIDF
         public string CurrentCommander { get; set; }
         public string[] CollectionOfStrike;
 
-        HamasDefinition(string dateOfEstablishment, string currentCommander)
+        public HamasDefinition(string dateOfEstablishment, string currentCommander)
         {
             DateOfEstablishment = dateOfEstablishment;
             CurrentCommander = currentCommander;
