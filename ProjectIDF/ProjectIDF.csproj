@@ -52,6 +52,7 @@
     <Compile Include="Aman.cs" />
     <Compile Include="HamasDefinition.cs" />
     <Compile Include="IdfDefinition.cs" />
+    <Compile Include="IntelligenceMessages.cs" />
     <Compile Include="IOrganization.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

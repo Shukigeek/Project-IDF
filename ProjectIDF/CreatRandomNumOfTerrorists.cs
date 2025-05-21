@@ -10,6 +10,7 @@ namespace ProjectIDF
     {
         static Random rand = RandomProvider.GetRandom();
         static int amount = rand.Next(5,11);
+        public static string[] terroristNames = new string[amount];
         public static List<Terrorist> terroristList = new List<Terrorist>();
         //public static void printTerrorist()
         //{
@@ -25,10 +26,15 @@ namespace ProjectIDF
             for (int i = 0; i < amount; i++)
             {
                 Terrorist terrorist = new Terrorist(CreatRandomTerroristNames.getNewName(), RandomProvider.GetRandom().Next(1, 6), AliveOrDead.Status(), TerroristWeaponArssenal.Personalweapon());
+                terroristNames[i] = terrorist.Name;
                 terroristList.Add(terrorist);
                 //Console.WriteLine(terrorist.ToString());
             }
             return terroristList;
+        }
+        public static string[] TerroristNames()
+        {
+            return terroristNames;
         }
 }
 }

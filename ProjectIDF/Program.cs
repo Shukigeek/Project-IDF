@@ -48,6 +48,7 @@ namespace ProjectIDF
             {
                 Console.WriteLine(item);
             }
+            IntelligenceMessages.print();
             //foreach (var a in TerroristWeaponArssenal.Personalweapon()) { 
             //    Console.WriteLine(a);
             //}
