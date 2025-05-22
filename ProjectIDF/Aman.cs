@@ -9,7 +9,7 @@ namespace ProjectIDF
     internal class Aman
     {
         public Terrorist terrorist;
-        public string LocationTerrorist;
+        public string[] LocationTerrorist = { "home", "car", "outside" };
         public string timestamp;
     }
 }
