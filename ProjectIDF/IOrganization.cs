@@ -8,7 +8,7 @@ namespace ProjectIDF
 {
     interface IOrganization
     {
-        string DateOfEstablishment { get; set; }
-        string CurrentCommander { get; set; }
+        string DateOfEstablishment { get; }
+        string CurrentCommander { get; }
     }
 }

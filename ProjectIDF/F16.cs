@@ -8,14 +8,14 @@ namespace ProjectIDF
 {
     internal class F16 : AttackTools
     {
-        public override string BombType { get; set; }   
-        public override int AmmunitionCapacity { get; set; }
-        public override string EffectiveAgainst { get; set; }
-        public F16(string bombType, int ammunitionCapacity, string effectiveAgainst)
-        {
-            BombType = bombType;
-            AmmunitionCapacity = ammunitionCapacity;
-            EffectiveAgainst = effectiveAgainst;
-        }
+        public override string BombType { get; } = "0.5 ton or 1 ton";
+        public override int AmmunitionCapacity { get; } = 8;
+        public override string EffectiveAgainst { get; } = "bulidings";
+        //public F16(string bombType, int ammunitionCapacity, string effectiveAgainst)
+        //{
+        //    BombType = bombType;
+        //    AmmunitionCapacity = ammunitionCapacity;
+        //    EffectiveAgainst = effectiveAgainst;
+        //}
     }
 }
