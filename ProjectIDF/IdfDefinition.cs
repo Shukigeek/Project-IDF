@@ -8,15 +8,10 @@ namespace ProjectIDF
 {
     internal class IdfDefinition : IOrganization
     {
-        public string DateOfEstablishment { get; }
-        public string CurrentCommander { get; }
+        public string DateOfEstablishment { get; } = "may 26 1948";
+        public string CurrentCommander { get; } = "eyal zamir";
+        public string[] CollectionOfStrike = new string[] { "aircraft", "drones", "artillery" };   
+        
 
-        public string[] CollectionOfStrike;
-        public IdfDefinition(string dateOfEstablishment = "may 26 1948", string currentCommander = "eyal zamir")
-        {
-            DateOfEstablishment = dateOfEstablishment;
-            CurrentCommander = currentCommander;
-            CollectionOfStrike = new string[] { "aircraft", "drones", "artillery" };
-        }
     }
 }
