@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -43,9 +44,29 @@ namespace ProjectIDF
             $"🔍 Interrogation Report: Detainee confesses link to {namesList[rand.Next(namesList.Length)]}",
             $"🛡️ Terror Threat Neutralized: Plot by {namesList[rand.Next(namesList.Length)]} foiled by special ops."
         };
-        public static void print()
+        
+        static private string[] Thrats()
         {
-            foreach (string alart in terroristAlerts)
+            string[] thrats = new string[rand.Next(10,20)];
+            for (int i = 0; i < thrats.Length; i++)
+            {
+                string t = terroristAlerts[rand.Next(30)];
+                if (!thrats.Contains(t))
+                {
+                    thrats[i] = t;
+                }
+                else
+                {
+                    i--;
+                }
+            }
+            return thrats;
+        }
+        static public string[] alerts = IntelligenceMessages.Thrats();
+        public static void printThrats()
+        {
+            string[] thrat = alerts;
+            foreach (string alart in thrat)
             {
                 Console.WriteLine( alart );
             }

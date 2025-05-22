@@ -10,6 +10,8 @@ namespace ProjectIDF
     {
         public string DateOfEstablishment { get; } = "may 26 1948";
         public string CurrentCommander { get; } = "eyal zamir";
-        public string[] CollectionOfStrike = new string[] { "aircraft", "drones", "artillery" };    
+        public string[] CollectionOfStrike = new string[] { "aircraft", "drones", "artillery" };   
+        
+
     }
 }
