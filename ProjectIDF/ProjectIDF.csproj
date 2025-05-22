@@ -55,6 +55,7 @@
     <Compile Include="IntelligenceMessages.cs" />
     <Compile Include="IOrganization.cs" />
     <Compile Include="MostReports.cs" />
+    <Compile Include="PrioritizingGoals.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RandomProvider.cs" />
