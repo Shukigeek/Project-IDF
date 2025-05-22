@@ -48,11 +48,13 @@ namespace ProjectIDF
             {
                 Console.WriteLine(item);
             }
-            IntelligenceMessages.print();
+            IntelligenceMessages.printThrats();
+            MostReports a = new MostReports();
+            Console.WriteLine(a.mostAlerts());
             //foreach (var a in TerroristWeaponArssenal.Personalweapon()) { 
             //    Console.WriteLine(a);
             //}
-            
+
         }
     }
 }

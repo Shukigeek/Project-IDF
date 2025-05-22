@@ -15,7 +15,15 @@ namespace ProjectIDF
             string[] Weapon = new string[rand.Next(1,allWeapon.Length+1)];
             for (int i = 0; i < Weapon.Length; i++)
             {
-                Weapon[i] = allWeapon[rand.Next(allWeapon.Length)];
+                string w = allWeapon[rand.Next(allWeapon.Length)];
+                if (!Weapon.Contains(w))
+                {
+                    Weapon[i] = w;
+                }
+                else
+                {
+                    i--;
+                }
 
             }
             return Weapon;
