@@ -51,6 +51,8 @@ namespace ProjectIDF
             IntelligenceMessages.printThrats();
             MostReports a = new MostReports();
             Console.WriteLine(a.mostAlerts());
+            PrioritizingGoals b = new PrioritizingGoals();
+            b.printQualityScore();
             //foreach (var a in TerroristWeaponArssenal.Personalweapon()) { 
             //    Console.WriteLine(a);
             //}
