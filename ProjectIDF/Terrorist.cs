@@ -45,8 +45,8 @@ namespace ProjectIDF
                     Status = "alive";
                 }
             }
-        
         }
+
         public string[] weapon
         {
             get { return Weapon; }
@@ -55,7 +55,6 @@ namespace ProjectIDF
                 Weapon = new string[value.Length];
                 for (int i = 0; i < value.Length; i++)
                 {
-
                     if (allWeapon.Contains(value[i]))
                     {
                         Weapon[i] = value[i];
